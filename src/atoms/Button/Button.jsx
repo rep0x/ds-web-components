@@ -1,11 +1,11 @@
 import { html } from 'lit-html'
 
 export const Button = ({ 
-  primary, 
-  backgroundColor, 
-  size, 
-  label, 
-  onClick 
+  primary,
+  backgroundColor,
+  size,
+  label,
+  onClick
 }) => {
   const mode = primary ? 'btn--primary' : 'btn--secondary'
 

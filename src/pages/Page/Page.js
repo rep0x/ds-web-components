@@ -1,6 +1,6 @@
-import { html } from 'lit-html';
-import { Header } from './Header';
-import './page.css';
+import { html } from 'lit-html'
+import { Header } from '../../organisms/Header/Header'
+import './page.css'
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => html`
   <article>
@@ -60,4 +60,4 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => html`
       </div>
     </section>
   </article>
-`;
+`
